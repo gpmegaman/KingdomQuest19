@@ -5,6 +5,9 @@ using UnityStandardAssets.CrossPlatformInput;
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
     [RequireComponent(typeof (ThirdPersonCharacter))]
+
+
+     
     public class ThirdPersonUserControl : MonoBehaviour
     {
         private ThirdPersonCharacter m_Character; // A reference to the ThirdPersonCharacter on the object
@@ -16,6 +19,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         
         private void Start()
         {
+          
+            
             // get the transform of the main camera
             if (Camera.main != null)
             {
@@ -32,6 +37,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             m_Character = GetComponent<ThirdPersonCharacter>();
               anim = gameObject.GetComponent<Animator>();
         }
+
 
 
         private void Update()

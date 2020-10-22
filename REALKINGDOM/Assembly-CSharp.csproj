@@ -62,58 +62,62 @@
      <Compile Include="Assets\Chaser.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+     <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\Chasem.cs" />
+     <Compile Include="Assets\Dialogue.cs" />
      <Compile Include="Assets\GroundSmash.cs" />
-     <Compile Include="Assets\test.cs" />
+     <Compile Include="Assets\DialogueManager.cs" />
+     <Compile Include="Assets\DialogueTrigger.cs" />
+     <Compile Include="Assets\Dtrigger.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/REALKINGDOM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/UNITYMAKEWR/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -648,6 +652,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{6BCFE123-9B72-2A26-6A4C-FB9E3739FDE6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="TextToTMP.Editor.csproj">
+      <Project>{E1D232CD-5441-E561-FFF5-B9867796FE41}</Project>
+      <Name>TextToTMP.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
