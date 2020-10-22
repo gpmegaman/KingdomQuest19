@@ -350,7 +350,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296405793}
-  m_Text: WELCOME ADVENTURER!
+  m_Text: 'This is the text basis for the dialogue system.  '
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

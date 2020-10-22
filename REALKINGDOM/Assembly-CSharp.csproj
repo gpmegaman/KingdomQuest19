@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+     <Compile Include="Assets\Dtrigger.cs" />
      <Compile Include="Assets\PunchChecker.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Chaser.cs" />
@@ -72,7 +73,6 @@
      <Compile Include="Assets\GroundSmash.cs" />
      <Compile Include="Assets\DialogueManager.cs" />
      <Compile Include="Assets\DialogueTrigger.cs" />
-     <Compile Include="Assets\Dtrigger.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/KingdomQuest/KingdomQuest19/REALKINGDOM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
